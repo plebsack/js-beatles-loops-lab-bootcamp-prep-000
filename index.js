@@ -1,7 +1,9 @@
-function theBeatlesPlay(musicians, instruments){
-  const array = []
-  for (var i = 1; i < 100; i++) {
-  console.log("Hello World the " + i + " time");
-}
+function theBeatlesPlay(musicians, instruments) {
+  const arr = []
+  for (let i = 0, l = musicians.length; i < l; i++) {
+    arr.push(`${musicians[i]} plays ${instruments[i]}`)
+  }
+
+  return arr
 }
 
